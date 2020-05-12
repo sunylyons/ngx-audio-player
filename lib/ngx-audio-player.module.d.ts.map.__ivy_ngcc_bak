@@ -1,0 +1,1 @@
+{"version":3,"file":"ngx-audio-player.module.d.ts","sources":["/Users/developer/Desktop/Next/Noetic/node_modules/ngx-audio-player/lib/ngx-audio-player.module.d.ts"],"sourcesContent":["export declare class MaterialModule {\n}\nexport declare class NgxAudioPlayerModule {\n    constructor();\n}\n"],"names":[],"mappings":";;;;;;;;;;;;;;AAAA;;;AACA;;;;;AAGA;"}
