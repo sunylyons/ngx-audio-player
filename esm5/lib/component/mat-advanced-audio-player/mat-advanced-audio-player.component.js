@@ -5,7 +5,8 @@
 import * as tslib_1 from "tslib";
 import { Component, Input, ViewChild } from '@angular/core';
 import { AudioPlayerService } from '../../service/audio-player-service/audio-player.service';
-import { MatPaginator, MatTableDataSource } from '@angular/material';
+import { MatPaginator } from '@angular/material/paginator';
+import { MatTableDataSource } from '@angular/material/table';
 import { BaseAudioPlayerFunctions } from '../base/base-audio-player-components';
 var MatAdvancedAudioPlayerComponent = /** @class */ (function (_super) {
     tslib_1.__extends(MatAdvancedAudioPlayerComponent, _super);
