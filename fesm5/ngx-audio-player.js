@@ -1,7 +1,13 @@
 import { __extends } from 'tslib';
 import { Injectable, ViewChild, Component, Input, Pipe, NgModule } from '@angular/core';
 import { BehaviorSubject } from 'rxjs';
-import { MatTableDataSource, MatPaginator, MatButtonModule, MatCardModule, MatTableModule, MatFormFieldModule, MatSliderModule, MatExpansionModule, MatPaginatorModule } from '@angular/material';
+import { MatTableDataSource, MatTableModule } from '@angular/material/table';
+import { MatPaginator, MatPaginatorModule } from '@angular/material/paginator';
+import { MatButtonModule } from '@angular/material/button';
+import { MatCardModule } from '@angular/material/card';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatSliderModule } from '@angular/material/slider';
+import { MatExpansionModule } from '@angular/material/expansion';
 import { CommonModule } from '@angular/common';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
